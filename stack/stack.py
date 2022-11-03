@@ -1,4 +1,4 @@
-class mystack:
+class Stackx:
 
     def __init__(self):
         self.data = []
@@ -25,7 +25,7 @@ class mystack:
             return self.data.pop()
 
 
-a = mystack()  # I create my object
+a = Stackx()  # I create my object
 a.push(10)  # insert the  element
 a.push(23)
 a.push(25)
